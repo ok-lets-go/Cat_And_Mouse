@@ -262,7 +262,7 @@ def main():
             player.animate_running()
             player.location[0] += 9
             menu_cat.animate_running()
-            menu_cat.location[0] += 10
+            menu_cat.location[0] += 9.4
             previous_animation_time = current_time
 
         if menu_cat.location[0] > w:
